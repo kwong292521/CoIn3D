@@ -96,10 +96,11 @@ bash tools/dist_train.sh
 If you find our work useful in your research, please consider citing:
 
 ```latex
-@article{kuang2026coin3d,
+@inproceedings{kuang2026coin3d,
   title={CoIn3D: Revisiting Configuration-Invariant Multi-Camera 3D Object Detection},
   author={Kuang, Zhaonian and Ding, Rui and Wang, Haotian and Zheng, Xinhu and Yang, Meng and Hua, Gang},
-  journal={arXiv preprint arXiv:2603.05042},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={40707--40716},
   year={2026}
 }
 ```
