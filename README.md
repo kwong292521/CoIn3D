@@ -72,6 +72,8 @@ We provide four checkpoints for evaluation, download them to `CoIn3D/BEVDet/ckpt
 4. Trained on Lyft, car only. [Link](https://modelscope.cn/datasets/znkwong/CoIn3D_Data/resolve/master/ckpts/lyft.pth), Metrics: [Nuscenes](BEVDet/ckpts/l2n_metrics.md) 
 
 ```bash
+cd BEVDet
+
 # Evaluate Nuscenes to Waymo/Lyft
 bash tools/dist_test_nusc2x.sh
 
