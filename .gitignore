@@ -19,8 +19,8 @@ work_dirs/
 
 wandb/
 
-data/
-datasets/
+# data/
+# datasets/
 
 *.tar
 *.zip
